@@ -12,6 +12,13 @@ An iterative program is a program that runs its code repeitively until a specifi
 Below is an example of an iterative program used to find the nth value of a Fibonnaci sequence:
 
 
+##Testing
+
+In this section, I will be testing the functionality of my recursive and iterative codes:
+
+
+
+
 
 
 
