@@ -39,24 +39,41 @@ To find out we can compare their time and space complexities.
 The time complexity of an algorithm can be defined as the amount of time taken by an algorithm to run, as a function of the length of the input.It measures the time taken to execute each statement of code in an algorithm.
 <br>
 <br>
-For this test, I will be finding the N value 
+For this test, I will be using the N value 30
+#### Recursive
+To find the time complexity of the recursive program:
 <br>
 <br>
-To find the time complexities of the **recursive** program:
-<br>
-<br>
-1. Open terminal and direct to the "fibonacci-benchmark" folder using cd <folder path> 
+1. Open terminal and direct to the "fibonacci-benchmark" folder using cd<folder path> 
 2. run make time-recursive; ./main_b_time_recursive.out
 <br>
 <br>
-The result when N = is
+The result when N = is as shown below:
 <br>
 <br>
+<img src = Fibonacci-benchmark-images/fibonacci-recur-time.jpg>
+<br>
+  
+#### Iterative
 To find the time complexity of the **iterative** program:
 <br>
 <br>
 1.Repeat the same steps from before but replace the second step with Run make time-iterative; ./main_b_time_iterative.out
+<br>
+<br>
+The result when N = is as shown below:
+<br>
+<br>
+<img src =Fibonacci-benchmark-images/fibonacci-iter-time.jpg>
+<br> 
   
+### Space complexity
+The space complexity of an algorithm is defined as the amount of memory or space an algorithm takes to run as a function of the length of the input. Space complexity is a way to evaluate the performance of an algorithm.
+<br>
+<br>
+For this test, I will be using the N value 1000
+  <br>
+#### Recursive
 
 
 
