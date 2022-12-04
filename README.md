@@ -4,7 +4,8 @@ In this assignment, I will be comparing the time and space complexity between th
 Let's first start by showing how the iterative and recursive approach of finding the nth value in a Fibonacci sequence works.
 
 ## Recursive
-A recursive function is defined as a function that calls itself during its execution once or more. This function is very useful for many different types of problems as it allows programmers to write very efficient programs using minimal amount code. Below is an example of a recursive function used to find the nth value of a Fibonacci sequence:
+A recursive function is defined as a function that calls itself during its execution once or more. This function is very useful for many different types of problems as it allows programmers to write very efficient programs using minimal amount code. Below is an example of a recursive function used to find the nth value of a Fibonacci sequence:<br>
+!(https://github.com/FrancescoEmmanuel/SC_FibonacciBenchmark/blob/main/Fibonacci-benchmark-images/fibonacci-recursive.PNG)
 
 
 ## Iterative
