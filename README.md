@@ -52,7 +52,7 @@ For this test, I will be using the Nth value 30
 #### Recursive
 To find the time complexity of the recursive program:
 
-<br>1. Open terminal and direct to the "fibonacci-benchmark" folder using cd<folder path> 
+<br>1. Open terminal and direct to the "fibonacci-benchmark" folder using cd<folder path
 <br>2. run make time-recursive; ./main_b_time_recursive.out
 <br>
 <br>
@@ -86,7 +86,7 @@ For this test, I will be using the Nth value 10000
 To find the space complexity of the recursive program:
 <br>
 <br>1. Search "Command Prompt" and run it
-<br>2. Direct to the "fibonacci-benchmark" folder using cd <folder path>
+<br>2. Direct to the "fibonacci-benchmark" folder using cd <folder path
 <br>3. Run make space-recursive; main_b_space_recurive.exe
 <br>4. Do not close the Command Prompt
 <br>
