@@ -21,10 +21,22 @@ Below is an example of an iterative program used to find the nth value of a Fibo
 <br>
 In this section, I will be testing the functionality of my recursive and iterative codes.
 <br>
-To do this I will run the mylib.c file which contains both my recursive and iterative functions of finding the nth value of a Fibonacci sequence, the following will be results will be printed in the terminal:
+To do this:
 <br>
+1. run command prompt
 <br>
 
+2. Direct to the "fibonacci-benchmark" folder using cd <folder path>
+<br>
+3. Compile the C file by using gcc -o mylib.o -c mylib/mylib.c; gcc -o main.exe main.c mylib.o
+<br>
+4. Run the executable file by using main.exe for Windows and ./main.out for Linux and macOS
+<br>
+5. Input the nth value you want to find in the Fibonnaci sequence
+<br>
+<br>
+The result will be shown as below:
+<br>
 <img src =Fibonacci-benchmark-images/testing-code.jpg>
 
 From the results that I have obtained above, it can be seen that the same output on the iterative and recursive approach for a Fibonacci number of an input N was returned. This shows the validity of both my iterative and recursive code implementation.
@@ -36,7 +48,7 @@ To find out we can compare their time and space complexities.
 <br>
 
 ### Time complexity
-The time complexity of an algorithm can be defined as the amount of time taken by an algorithm to run, as a function of the length of the input.It measures the time taken to execute each statement of code in an algorithm.
+The time complexity of an algorithm can be defined as the amount of time taken by an algorithm to run, as a function of the length of the input.It measures the time taken to execute each statement of code in an algorithm.In this section, I will be finding the time complexity of the two algorithms.
 <br>
 <br>
 For this test, I will be using the N value 30
@@ -66,7 +78,7 @@ The result when N = 30 is as shown below:
 <br> 
   
 ### Space complexity
-The space complexity of an algorithm is defined as the amount of memory or space an algorithm takes to run as a function of the length of the input. Space complexity is a way to evaluate the performance of an algorithm.
+The space complexity of an algorithm is defined as the amount of memory or space an algorithm takes to run as a function of the length of the input. Space complexity is a way to evaluate the performance of an algorithm. In this section, I will be finding the space complexity of the two algorithms.
 <br>
 <br>
 For this test, I will be using the N value 1000
@@ -96,6 +108,16 @@ Open "Task Manager" and search main_b_space_iterative and main_b_space_recursive
 The results will be shown as below:
 <br>
 <img src =Fibonacci-benchmark-images/space-complexity.jpg>
+
+## Conclusion
+From the results shown on the previous sections, we can conclude that:
+<br>
+
+#### 1. The recursive approach is slower as when finding the 30th value, it took 0.11504s to execute, while it took the iterative algorithm 0.00001s to execute.
+<br><br>
+This is because for the iterative approach, the program loop n number of times to find the nth Fibonacci number, making the time complexity linear. For the recursive algorithm however, the program has to call two additional recursive functions for each recursion before it can obtain the nth Fibonacci number, making the time complexity exponential. Running a loop repeatedly takes less time than calling and returning a function.
+  
+
 
 
 
