@@ -1,4 +1,4 @@
-# Measuring Time and Space complexity of a Fibonacci algorithm: Recursive vs. Iterative
+# Measuring the Time and Space complexity of a Fibonacci algorithm: Recursive vs. Iterative
 
 In this repo, I will be comparing the time and space complexity between the iterative and recursive approach to finding the nth value of a Fibonacci sequence.
 Let's first start by showing how the iterative and recursive algorithm works.
