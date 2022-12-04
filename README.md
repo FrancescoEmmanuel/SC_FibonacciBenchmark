@@ -51,9 +51,9 @@ The time complexity of an algorithm can be defined as the amount of time taken b
 For this test, I will be using the Nth value 30
 #### Recursive
 To find the time complexity of the recursive program:
-<br>
-1. Open terminal and direct to the "fibonacci-benchmark" folder using cd<folder path> 
-2. run make time-recursive; ./main_b_time_recursive.out
+
+<br>1. Open terminal and direct to the "fibonacci-benchmark" folder using cd<folder path> 
+<br>2. run make time-recursive; ./main_b_time_recursive.out
 <br>
 <br>
 The result when N = 30 is as shown below:
@@ -65,8 +65,8 @@ The result when N = 30 is as shown below:
   
 #### Iterative
 To find the time complexity of the iterative program:
-<br>
-1.Repeat the same steps from before but replace the second step with Run make time-iterative; ./main_b_time_iterative.out
+
+<br>1.Repeat the same steps from before but replace the second step with Run make time-iterative; ./main_b_time_iterative.out
 <br>
 <br>
 The result when N = 30 is as shown below:
@@ -95,10 +95,9 @@ To find the space complexity of the recursive program:
 #### Iterative
   
 To find the space complexity of the iterative program:
-<br>
-1. Repeat steps 1,2,4 from before
-<br>
-2. Replace step 3 with run make space-iterative; main_b_space_iterative.exe
+
+<br>1. Repeat steps 1,2,4 from before
+<br>2. Replace step 3 with run make space-iterative; main_b_space_iterative.exe
 
 #### Results:
 To see and compare the space complexities :
