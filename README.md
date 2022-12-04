@@ -43,25 +43,23 @@ For this test, I will be using the N value 30
 #### Recursive
 To find the time complexity of the recursive program:
 <br>
-<br>
 1. Open terminal and direct to the "fibonacci-benchmark" folder using cd<folder path> 
 2. run make time-recursive; ./main_b_time_recursive.out
 <br>
 <br>
-The result when N = is as shown below:
+The result when N = 30 is as shown below:
 <br>
 <br>
 <img src = Fibonacci-benchmark-images/fibonacci-recur-time.jpg>
 <br>
   
 #### Iterative
-To find the time complexity of the **iterative** program:
-<br>
+To find the time complexity of the iterative program:
 <br>
 1.Repeat the same steps from before but replace the second step with Run make time-iterative; ./main_b_time_iterative.out
 <br>
 <br>
-The result when N = is as shown below:
+The result when N = 30 is as shown below:
 <br>
 <br>
 <img src =Fibonacci-benchmark-images/fibonacci-iter-time.jpg>
@@ -74,7 +72,30 @@ The space complexity of an algorithm is defined as the amount of memory or space
 For this test, I will be using the N value 1000
   <br>
 #### Recursive
+To find the space complexity of the recursive program:
+<br>
+<br>1. Search "Command Prompt" and run it
+<br>2. Direct to the "fibonacci-benchmark" folder using cd <folder path>
+<br>3. Run make space-recursive; main_b_space_recurive.exe
+<br>4. Do not close the Command Prompt
+<br>
+<br>
 
+#### Iterative
+To find the space complexity of the iterative program:
+<br>
+1. Repeat steps 1,2,4 from before
+<br>
+2. Replace step 3 with run make space-iterative; main_b_space_iterative.exe
+
+#### Results:
+To see and compare the space complexities :
+<br>
+Open "Task Manager" and search main_b_space_iterative and main_b_space_recursive
+<br><br>
+The results will be shown as below:
+<br>
+<img src =Fibonacci-benchmark-images/space-complexity.jpg>
 
 
 
