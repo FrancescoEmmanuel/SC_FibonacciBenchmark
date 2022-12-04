@@ -5,7 +5,7 @@ Let's first start by showing how the iterative and recursive approach of finding
 
 ## Recursive
 A recursive function is defined as a function that calls itself during its execution once or more. This function is very useful for many different types of problems as it allows programmers to write very efficient programs using minimal amount code. Below is an example of a recursive function used to find the nth value of a Fibonacci sequence:<br>
-<img src = "(https://raw.githubusercontent.com/FrancescoEmmanuel/SC_FibonacciBenchmark/main/Fibonacci-benchmark-images/fibonacci-recursive.PNG)" title="recursive">
+fibonacci-recursive.PNG
 
 
 ## Iterative
