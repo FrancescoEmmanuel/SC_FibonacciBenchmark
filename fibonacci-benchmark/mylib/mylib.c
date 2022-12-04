@@ -28,6 +28,6 @@ int fibRecur(int N){
         return 1;
     }
     else{
-        return fibonacciRecursive(N-1) + fibonacciRecursive(N-2);
+        return fibRecur(N-1) + fibRecur(N-2);
     }
 }
